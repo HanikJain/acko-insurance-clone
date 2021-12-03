@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+}
+:root{
+    --text-color: #cfcfcf;
+    --bg: #3456FF;
+    --bg-accent: #5e79ffc7;
+    /* --bg-accent: #cfcfcf; */
+    --primary-color: #3456FF;
+    --secondary-color: #64c6fb;
+    --font : 'Poppins', sans-serif;
+
+    --nav-size : 60px;
+    --border : 1px solid #cfcfcf;
+    --border-radius : 8px;
+    --speed : 300ms;
+    
+    --fs-xl: 2rem;
+    --fs-600: 1.5rem;
+    --fs-500: 1.25rem;
+    --fs-400: 1rem;
+   
+} 
+
+.main{
+    height: 500px;
+    width: 60%;
+    margin: auto;
+    
+
+}
+
+         /* HEADER */
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-size:var(--fs-xl);
+    color: var(--bg);
+
+}
+.header h2 {
+    margin-bottom: 0;
+    background-color: var(--bg);
+    color: var(--text-color);
+    padding:0 10px;
+    border-radius: 5px;
+}
+.header p {
+    font-size:var(--fs-400);
+}
+
+
+                 /* CARD */
+.card {
+    margin-top: 50px;
+}
+.card-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-icon-item svg {
+    width: 50px;
+    height: 50px;
+    fill: var(--bg);    
+}
+
+.card-icon-item {
+    filter: brightness(1.8);
+    border-bottom: 3px solid white;
+    transition: all 0.3 ease;
+    color: var(--bg);
+}
+
+.card-icon-item:hover {
+    filter: brightness(1);
+    border-bottom: 3px solid #3456FF;
+    transition: border-bottom 500ms ease;
+}
+
+
+
+                /* INPUT FIELD */
+                
+
+
+
+.card-input { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    justify-content: center;  
+
+}
+
+.input-field{
+    border: 3px solid var(--bg);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.input-field input { 
+    width: 80%;
+    height: 46px;
+    margin: auto;
+    border-width:0px;
+    border:none;
+}
+
+.input-field button { 
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color:white;
+    border: none;
+}
+
+.input-field input:focus {
+    border: none;
+    border-width:0px;
+    outline: none;
+}
+
+
+
+
+@media only screen and (max-width : 700px) {
+    .main{
+        width: 90%;
+    }
+
+    .header{
+        font-size:var(--fs-400);
+    }
+    
+
+    .header p {
+        font-size:0.8rem;
+    }
+    
+    .input-field input { 
+        width: 70%;
+        height: 26px;
+        margin-right:5px;
+    }
+    
+    
+}

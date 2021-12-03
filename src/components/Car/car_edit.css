@@ -1,0 +1,36 @@
+.car-edit-car{
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 95%;
+    height: 10%;
+    margin: auto;
+    border-radius:2%;
+    border-bottom: 1px solid var(--bg) ;
+    padding: 10px;
+}
+
+.edit-text {
+    color: gray;
+}
+.edit-icon svg {
+    width: 1rem;
+    height: 1rem;
+}
+.edit-icon {
+    float: right;
+    color: black;
+}
+
+@media (min-width:725px) and (max-width: 950px) {
+    .car-edit-car {
+        font-size: 0.8rem;
+   
+    }
+}
+
+@media only screen and (max-width: 725px) {
+    .car-edit-car {
+        font-size: 12px;
+        display: none;
+    }
+  }

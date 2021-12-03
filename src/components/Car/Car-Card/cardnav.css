@@ -1,0 +1,15 @@
+.circle-container{
+    width:100%;
+    height:100%;
+    background-color: #fff;
+    border-radius:50%;
+
+}
+
+.circle-container .circle .item,
+.circle-container .circle .fill{
+    width:100%;
+    height:100%;
+    position: a;
+
+}
