@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Note
+This is the first version v1.0 of this project. More features and update will come soon.
+
+
+## Key Features
+Made with React.
+Responsive design.
+Use of hooks.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
